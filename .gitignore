@@ -10,7 +10,7 @@
 /vendor/
 /web/modules/contrib
 /web/core
-
+.idea
 # Define text file attributes.
 # - Treat them as text.
 # - Ensure no CRLF line-endings, neither on checkout nor on checkin.
