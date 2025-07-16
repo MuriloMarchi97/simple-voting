@@ -1,0 +1,5 @@
+entity.simple_voting.collection:
+  title: 'Voting'
+  description: 'List all voting.'
+  route_name: entity.simple_voting.collection
+  parent: system.admin_content

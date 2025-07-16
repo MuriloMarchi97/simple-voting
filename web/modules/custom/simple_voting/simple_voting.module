@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for simple voting module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function simple_voting_theme(): array {
+  return [
+    'answer_option' => [
+      'variables' => [
+        'title' => NULL,
+        'item_id' => NULL,
+        'description' => NULL,
+        'image' => NULL,
+      ],
+    ],
+  ];
+}

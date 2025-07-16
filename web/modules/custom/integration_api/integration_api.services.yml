@@ -1,0 +1,6 @@
+services:
+  integration_api.auth_middleware:
+    class: Drupal\integration_api\Middleware\AuthMiddleware
+    arguments: ['@password', '@current_user']
+    tags:
+      - { name: 'event_subscriber' }

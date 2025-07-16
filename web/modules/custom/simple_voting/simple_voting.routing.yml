@@ -1,0 +1,20 @@
+simple_voting.vote_form:
+  path: '/simple_voting/{entity}'
+  defaults:
+    _form: 'Drupal\simple_voting\Form\Registration\RegisterVoteForm'
+    _description: 'Choose wisely!'
+  requirements:
+    _permission: 'access content'
+    _role: 'authenticated'
+  options:
+    parameters:
+      entity:
+        type: entity:simple_voting
+
+simple_voting.list_active:
+  path: '/voting'
+  defaults:
+    _form: 'Drupal\simple_voting\Form\Index\ListActiveVotingsForm'
+    _description: 'Choose a poll!'
+  requirements:
+    _permission: 'access content'

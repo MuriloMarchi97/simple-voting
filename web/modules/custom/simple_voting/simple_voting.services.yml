@@ -1,0 +1,7 @@
+services:
+  simple_voting.repository:
+    class: Drupal\simple_voting\Repository\SimpleVotingRepository
+    arguments: []
+  simple_voting.service:
+    class: Drupal\simple_voting\Service\SimpleVotingService
+    arguments: []

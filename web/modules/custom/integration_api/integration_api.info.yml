@@ -1,0 +1,7 @@
+name: 'Integration API'
+type: module
+description: 'Expose voting entity as endpoints.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:simple_voting

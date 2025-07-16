@@ -1,0 +1,9 @@
+status: true
+dependencies:
+  module:
+    - integration_api
+id: api_integration
+label: 'Api Integration'
+is_admin: null
+permissions:
+  - 'administer integration_api'

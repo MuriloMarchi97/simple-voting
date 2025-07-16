@@ -1,0 +1,5 @@
+simple_voting.add_form:
+  title: 'Create new Voting'
+  route_name: entity.simple_voting.add_form
+  appears_on:
+    - entity.simple_voting.collection

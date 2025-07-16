@@ -1,0 +1,14 @@
+<div>
+  <h3>{{ title }}</h3>
+
+  {% if image %}
+    <img src="{{ image }}" alt="{{ description }}">
+  {% endif %}
+
+  <p>{{ description }}</p>
+
+  <div>
+    <input type="radio" id="option_{{ item_id }}" name="answer" value="{{ item_id }}">
+    <label for="option_{{ item_id }}">{{ title }}</label>
+  </div>
+</div>

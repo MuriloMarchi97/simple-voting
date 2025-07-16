@@ -1,0 +1,6 @@
+name: voting-app
+recipe: drupal10
+config:
+  xdebug: true
+  webroot: web
+
